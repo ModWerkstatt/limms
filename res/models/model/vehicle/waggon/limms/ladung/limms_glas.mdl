@@ -1,0 +1,36 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 6.6957473754883, 1.5273420810699, 4.1090769767761, },
+		bbMin = { -6.6957473754883, -1.5273420810699, -0.035158962011337, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 6.6957473754883, 1.5273420810699, 2.0721180438995, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/limms/Glas.mtl", },
+						mesh = "vehicle/waggon/limms/jay_mesh_limms_beladungGlas_lod0.msh",
+						name = "jay_mesh_limms_beladungGlas",
+						transf = { 3.7122824192047, 0, 0, 0, 0, 0.086724929511547, 0, 0, 0, 0, 1, 0, 0.32750624418259, 2.9802322387695e-08, 1.8896535634995, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 551.12707519531,
+		},
+	},
+	metadata = { },
+	version = 1,
+}
+end
